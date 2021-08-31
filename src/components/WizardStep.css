@@ -1,0 +1,46 @@
+
+/* Large */
+.WizardStep {
+  padding-top: 2em;
+  padding: 5px;
+  width: 15%;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+  font-size: 16px;
+}
+@media all and (max-width: 450px) {
+  .WizardStep {
+    font-size: 10px;
+  }
+}
+/* small screens */
+@media all and (max-width: 360px) {
+  .StepImage {
+    width: 30px;
+  }
+}
+@media all and (max-width: 450px) {
+  .StepImage {
+    width: 50px;
+  }
+}
+.StepLabelBold {
+  color: #000;
+  font-weight: 700;
+}
+
+.StepLabelSemiBold {
+  color: #000;
+  font-weight: 600;
+}
+
+.StepLabelBoldActive {
+  color: #006bce;
+  font-weight: 700;
+}
+
+.StepLabelSemiBoldActive {
+  color: #006bce;
+  font-weight: 600;
+}

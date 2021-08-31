@@ -1,0 +1,57 @@
+.container {
+  margin: 0 auto;
+  padding-top: 2em;
+}
+/* Large screens */
+@media all and (min-width: 800px) {
+  .container {
+    padding-left: 26%;
+    padding-right: 26%;
+  }
+}
+
+.Wizard {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+.connecting-line {
+  height: 2px;
+  background: #006bce;
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 3.5em;
+  z-index: -5;
+}
+/* small screens */
+@media all and (max-width: 360px) {
+  .connecting-line {
+    height: 2px;
+    background: #006bce;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 2em;
+    z-index: -5;
+  }
+}
+@media all and (max-width: 450px) {
+  .connecting-line {
+    height: 2px;
+    background: #006bce;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 2.7em;
+    z-index: -5;
+  }
+}

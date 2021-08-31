@@ -1,0 +1,159 @@
+.WizardForm {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+@media all and (min-width: 1280px) {
+  .WizardForm {
+    padding-top: 4em;
+  }
+}
+.FormPadding {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.FormHeader {
+  background-color: #c5dcfa;
+}
+.FormHeaderTitle {
+  font-size: 21pt;
+  font-weight: bold;
+}
+
+.FormDescription {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; 
+}
+
+.FormInputs {
+  display: flex;
+  flex-direction: row;
+}
+/* small screens */
+@media all and (max-width: 450px) {
+  .FormInputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .AvatarUpload {
+    flex-direction: column;
+    width: 100%; object-fit: cover; 
+  }
+  .UploadButton {
+    display: flex;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+}
+
+.AvatarUpload {
+  padding-top: 1em;
+  order: 1;
+}
+
+.UploadButton {
+  text-align: center;
+  background-color:transparent;
+  border: none;
+  outline: none;
+  padding-top: 0.5em;
+  position: relative;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.FormInputsHolder {
+  order: 2;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 600px) {
+  .FormCol1 {
+    display:flex;
+    width: 45%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .FormCol2 {
+    display:flex;
+    width: 45%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media all and (min-width: 500px) {
+  .FormCol1 {
+    display:flex;
+    flex-direction:column;
+    justify-content: center ;
+  }
+  
+  .FormCol2 {
+    display:flex;
+    flex-direction:column;
+    justify-content: center ;
+  }
+}
+
+.FormFooter {
+  padding-top: 3em;
+  float: right;
+}
+
+.Button {
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem 0.6rem 1rem;
+  position: relative;
+  border-radius: 5px;
+  background-color: #c5dcfa;
+  color: #0A3977;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  /* Font Design said SemiBold but in the image it looks like it used Bold so I went with 700 */
+  font-weight: 700; 
+  cursor: pointer;
+  box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+}
+.Button:active {
+  transform: translateY(1px);
+}
+
+.SubmitBtnImg {
+  padding-left: 10px;
+  vertical-align:middle;
+}
+
+.SubmitBtnLabel {
+  vertical-align:middle;
+}
+
+.FormLabel {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+}
+
+.FormInput {
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  border-radius: 10px;
+  min-height: 1.9rem;
+}
