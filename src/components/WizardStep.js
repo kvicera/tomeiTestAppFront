@@ -4,12 +4,12 @@ function WizardStep(props) {
   return (
     <div className="WizardStep">
       <img className="StepImage" src={props.stepImg} alt={props.alt} />
-      <div class="HideOnSmall">
-        <p class={props.activeStep ? 'StepLabelBoldActive' : 'StepLabelBold'}>
+      <div className="HideOnSmall">
+        <p className={props.activeStep ? 'StepLabelBoldActive' : 'StepLabelBold'}>
           STEP {props.stepNum}:{' '}
         </p>
         <p
-          class={
+          className={
             props.activeStep ? 'StepLabelSemiBoldActive' : 'StepLabelSemiBold'
           }
         >

@@ -12,7 +12,9 @@
   padding-left: 2em;
   padding-right: 2em;
 }
-
+.AvatarInput {
+  display: none;
+}
 .FormHeader {
   background-color: #c5dcfa;
 }
@@ -52,7 +54,14 @@
     margin: 0 auto;
   }
 }
-
+.AvatarPreview {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
 .AvatarUpload {
   padding-top: 1em;
   order: 1;
