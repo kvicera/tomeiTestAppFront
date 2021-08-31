@@ -1,4 +1,5 @@
 import './WizardForm.css'
+import React from 'react'
 import { useState, useRef } from 'react'
 
 import UploadImg from '../assets/Avatar.png'

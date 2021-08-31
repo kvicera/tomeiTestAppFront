@@ -1,8 +1,9 @@
 import './Wizard.css'
+import React from 'react'
 // redux
-import { connect } from 'react-redux'
-import { startAction } from '../redux/actions/startAction'
-import { stopAction } from '../redux/actions/stopAction'
+// import { connect } from 'react-redux'
+// import { startAction } from '../redux/actions/startAction'
+// import { stopAction } from '../redux/actions/stopAction'
 
 import WizardStep from './WizardStep'
 import WizardForm from './WizardForm'
@@ -61,13 +62,14 @@ function Wizard(props) {
   )
 }
 
-const mapStateToProps = (state) => ({
-  ...state,
-})
+// const mapStateToProps = (state) => ({
+//   ...state,
+// })
 
-const mapDispatchToProps = (dispatch) => ({
-  startAction: () => dispatch(startAction),
-  stopAction: () => dispatch(stopAction),
-})
+// const mapDispatchToProps = (dispatch) => ({
+//   startAction: () => dispatch(startAction),
+//   stopAction: () => dispatch(stopAction),
+// })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Wizard)
+// export default connect(mapStateToProps, mapDispatchToProps)(Wizard)
+export default Wizard

@@ -4,7 +4,7 @@ import isEmpty from 'validator/lib/isEmpty'
 
 import axios from 'axios'
 
-function ValidateFormData(name, email, password, repassword, avatar) {
+function ValidateFormData(name, email, password, repassword) {
   if (
     !isEmpty(name) &&
     isEmail(email) &&

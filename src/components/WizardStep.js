@@ -1,4 +1,5 @@
 import './WizardStep.css'
+import React from 'react'
 
 function WizardStep(props) {
   return (
