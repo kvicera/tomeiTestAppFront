@@ -1,5 +1,4 @@
 
-/* Large */
 .WizardStep {
   padding-top: 2em;
   padding: 5px;
@@ -8,13 +7,18 @@
   text-align: center;
   position: relative;
   font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+@media all and (max-width: 540px) {
+  .WizardStep {
+    font-size: 14px;
+  }
 }
 @media all and (max-width: 450px) {
   .WizardStep {
     font-size: 10px;
   }
 }
-/* small screens */
 @media all and (max-width: 360px) {
   .StepImage {
     width: 30px;
@@ -34,12 +38,10 @@
   color: #000;
   font-weight: 600;
 }
-
 .StepLabelBoldActive {
   color: #006bce;
   font-weight: 700;
 }
-
 .StepLabelSemiBoldActive {
   color: #006bce;
   font-weight: 600;

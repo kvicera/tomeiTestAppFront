@@ -7,20 +7,9 @@
   flex-flow: row wrap;
   margin: 0 auto;
   margin-bottom: 20px;
+  font-family: 'Open Sans';
 }
 
-/* We tell all items to be 100% width, via flex-basis */
 .App > * {
   flex: 1 100%;
-}
-
-/* Medium screens */
-@media all and (min-width: 600px) {
-  /* We tell both sidebars to share a row */
-  .aside { flex: 1 auto; }
-}
-
-/* Large screens */
-@media all and (min-width: 800px) {
-   
 }

@@ -24,25 +24,51 @@ function WizardForm(props) {
               <button class="UploadButton">Upload</button>
             </div>
             <div className="FormInputsHolder">
-              <div className="FormCol1">
-                <label className="FormLabel" htmlFor="fname">
-                  NAME
-                </label>
-                <input className="FormInput" type="text" id="fname" name="fname"></input>
-                <label className="FormLabel" htmlFor="fname">
-                  PASSWORD
-                </label>
-                <input type="password" className="FormInput" id="fname" name="fname"></input>
-              </div>
-              <div className="FormCol2">
-                <label className="FormLabel" htmlFor="fname">
-                  EMAIL:
-                </label>
-                <input className="FormInput" type="text" id="fname" name="fname"></input>
-                <label className="FormLabel" htmlFor="fname">
-                  CONFIRM PASSWORD:
-                </label>
-                <input type="password" className="FormInput" id="fname" name="fname"></input>
+              <div className="FormRow1">
+                <div className="Row">
+                  <label className="FormLabel" htmlFor="fname">
+                    NAME
+                  </label>
+                  <input
+                    className="FormInput"
+                    type="text"
+                    id="fname"
+                    name="fname"
+                  ></input>
+                </div>
+                <div className="Row">
+                  <label className="FormLabel" htmlFor="fname">
+                    EMAIL
+                  </label>
+                  <input
+                    type="text"
+                    className="FormInput"
+                    id="fname"
+                    name="fname"
+                  ></input>
+                </div>
+                <div className="Row">
+                  <label className="FormLabel" htmlFor="fname">
+                    PASSWORD
+                  </label>
+                  <input
+                    type="password"
+                    className="FormInput"
+                    id="fname"
+                    name="fname"
+                  ></input>
+                </div>
+                <div className="Row">
+                  <label className="FormLabel" htmlFor="fname">
+                    CONFIRM PASSWORD
+                  </label>
+                  <input
+                    type="password"
+                    className="FormInput"
+                    id="fname"
+                    name="fname"
+                  ></input>
+                </div>
               </div>
             </div>
           </div>

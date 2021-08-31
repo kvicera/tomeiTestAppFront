@@ -17,30 +17,34 @@
   background-color: #c5dcfa;
 }
 .FormHeaderTitle {
+  color: #000;
   font-size: 21pt;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 .FormDescription {
   color: #000;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600; 
+  font-weight: 600;
+  margin-bottom: 2rem;
 }
 
 .FormInputs {
   display: flex;
   flex-direction: row;
 }
-/* small screens */
-@media all and (max-width: 450px) {
+
+@media all and (max-width: 600px) {
   .FormInputs {
     display: flex;
     flex-direction: column;
   }
   .AvatarUpload {
     flex-direction: column;
-    width: 100%; object-fit: cover; 
+    width: 100%;
+    object-fit: cover;
   }
   .UploadButton {
     display: flex;
@@ -56,7 +60,7 @@
 
 .UploadButton {
   text-align: center;
-  background-color:transparent;
+  background-color: transparent;
   border: none;
   outline: none;
   padding-top: 0.5em;
@@ -76,40 +80,21 @@
   justify-content: space-around;
 }
 
-@media all and (min-width: 600px) {
-  .FormCol1 {
-    display:flex;
-    width: 45%;
-    flex-direction:column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .FormCol2 {
-    display:flex;
-    width: 45%;
-    flex-direction:column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-}
-
 @media all and (min-width: 500px) {
-  .FormCol1 {
-    display:flex;
-    flex-direction:column;
-    justify-content: center ;
+  .FormRow1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: left;
   }
-  
-  .FormCol2 {
-    display:flex;
-    flex-direction:column;
-    justify-content: center ;
+  .Row {
+    width: 45%;
   }
 }
 
 .FormFooter {
-  padding-top: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   float: right;
 }
 
@@ -121,11 +106,11 @@
   position: relative;
   border-radius: 5px;
   background-color: #c5dcfa;
-  color: #0A3977;
+  color: #0a3977;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   /* Font Design said SemiBold but in the image it looks like it used Bold so I went with 700 */
-  font-weight: 700; 
+  font-weight: 700;
   cursor: pointer;
   box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
 }
@@ -135,18 +120,18 @@
 
 .SubmitBtnImg {
   padding-left: 10px;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .SubmitBtnLabel {
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .FormLabel {
   color: #c7c7c7;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   width: 100%;
   text-align: left;
 }
