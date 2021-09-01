@@ -39,32 +39,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Screenshots
+![laptop](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Generic%20Laptop%20-%202021-08-31%20at%2011.28.21%20PM.jpg?raw=true)
+![iphonex](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20iPhone%20X%20-%202021-08-31%20at%2011.28.11%20PM.jpg?raw=true)
+![lumia550](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Microsoft%20Lumia%20550%20-%202021-08-31%20at%2011.28.32%20PM.jpg?raw=true)
+![motog4](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Moto%20G4%20-%202021-08-31%20at%2011.28.25%20PM.jpg?raw=true)
+![nexus7](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Nexus%207%20-%202021-08-31%20at%2011.28.35%20PM.jpg?raw=true)
+![pixel2](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Pixel%202%20-%202021-08-31%20at%2011.28.14%20PM.jpg?raw=true)
+![surfaceduo](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20Surface%20Duo%20-%202021-08-31%20at%2011.28.29%20PM.jpg?raw=true)
+![ipad](https://github.com/kvicera/tomeiTestAppFront/blob/master/ui_test/Localhost%20-%20Full%20-%20iPad%20-%202021-08-31%20at%2011.28.17%20PM.jpg?raw=true)
